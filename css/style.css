@@ -1,0 +1,389 @@
+
+@font-face {
+    font-family: "vcr";
+    src: url("/fonts/vcr_osd_mono_1.001-webfont.woff2") format("woff2"),
+    url("/fonts/vcr_osd_mono_1.001-webfont.woff") format("woff");
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrap{
+    max-width: 1440px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+/* BODY */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.45em;
+    background-color: ghostwhite;
+}
+a:link,
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+}
+h3{
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+}
+p{
+    margin-bottom: 0.75em;
+    max-width: 550px;
+}
+strong{
+    font-weight: 600;
+}
+
+/* HEADER */
+header{
+    width: 100vw;
+    height: 5vw;
+}
+header ul{
+    line-height: 5vw;
+    padding: 0px 2.5vw;
+    list-style-type: none;
+    text-align: left;
+}
+header ul a{
+    text-decoration: none;
+    color: white;
+}
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+header ul li:first-of-type{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header ul li:last-of-type{
+    position: absolute;
+    margin-right: 0px;
+    right: 2.5vw;
+}
+
+/* HOME */
+
+.slideshow{
+    width: calc(100vw - 5vw);
+    height: calc(100vh - 7.5vw);
+    position: relative;
+    margin: 0vw 2.5vw 2.5vw 2.5vw;
+    list-style-type: none;
+    overflow: hidden;
+}
+.slideshow li:hover {
+    cursor: pointer;
+}
+.slideshow span{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.slideshow a:hover h3:last-of-type{
+    transform: translateX(20px);
+}
+.slideshow li{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.slideshow h2,
+.slideshow h3,
+.slideshow h4,
+.slideshow h5,
+.slideshow h6{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 0.5em 0.25em;
+    margin-bottom: 0.5rem;
+    position: absolute;
+}
+.slideshow h2,
+.slideshow h6,
+.slideshow h3{
+    font-family: vcr !important;
+}
+.slideshow h2,
+.slideshow h6{
+    font-size: 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slideshow h2{
+    display: none;
+}
+.slideshow h6:first-of-type{
+    top: initial;
+    bottom: 50%;
+    transform: translateX(-200%);
+}
+.slideshow h3{
+    font-size: 1.7rem;
+    bottom: 2.5vw;
+    right: 5vw;
+    padding: 0.5em 0.5em;
+}
+.slideshow h3:first-of-type {
+    left: 2.5vw;
+    right: initial;
+    top: 2.5vw;
+    bottom: initial;
+}
+.slideshow h4{
+    font-size: 1rem;
+    left: 2.5vw;
+    top: 25%;
+}
+.slideshow h5{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: red;
+    padding: 0.5em 0.5em;
+    top: 2.5vw;
+    right: 2.5vw;
+    border-radius: 0.5rem;
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+@keyframes blink {
+    0% {opacity: 1.0;}
+    50% {opacity: 0;}
+    100% {opacity: 1.0;}
+}
+
+/* ABOUT */
+
+#about{
+    width: calc(100vw - 5vw);
+    max-width: calc(1200px + 5vw);
+    height: calc(100vh - 5vw);
+    max-height: calc(1200px + 5vw);
+    position: relative;
+    margin: 2.5vw auto;
+    list-style-type: none;
+    overflow: hidden;
+}
+#about div{
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    padding: 0 2.5vw;
+    box-sizing: border-box;
+}
+#about div > img{
+    display: none;
+}
+#about h1{
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 600;
+    margin-top: 25vh;
+}
+#about h1 span{
+    font-weight: 400;
+}
+
+#about h2{
+    margin-bottom: 0px;
+}
+
+#about p:first-of-type{
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin-bottom: 10vh;
+}
+
+/* WORK */
+#work{
+    background-color: black;
+    color: ghostwhite;
+}
+#work > div,
+#resume > div,
+#contact > div{
+    max-width: 1200px;
+    padding: 2.5vw;
+    margin: 0px auto;
+}
+#work h2,
+#resume h2{
+    padding-top: 2.5vw;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#work li h3{
+    color: ghostwhite;
+    font-size: 1.25rem;
+    line-height: 3em;
+    margin-bottom: 0.5em;
+}
+#work li{
+    opacity: 0.8;
+    transition: opacity 0.125s linear;
+}
+#work li:hover{
+    opacity: 1.0;
+    cursor: zoom-in;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2.5vw 2.5vw;
+    padding: 2.5vw 0px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.grid-item {
+    position: relative;
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 10px 15vw 10px;
+    font-size: 1.25rem;
+    text-align: left;
+}
+.grid-item a:link{
+    display: block;
+}
+.grid-item h5{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.hide-gallery{
+    display: none;
+}
+/* RESUME */
+
+#resume{
+    background-color: black;
+    color: ghostwhite;
+}
+#resume .grid-container {
+    grid-template-columns: repeat(3, 33%);
+    padding: 1rem 0px;
+}
+#resume .grid-item{
+}
+#resume section{
+    margin-top: 5em;
+}
+#resume h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+#resume h4{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+#resume li{
+    color: gray;
+}
+#resume li strong{
+    color: ghostwhite;
+}
+
+/* Light Gallery */
+
+.lg-sub-html{
+    text-align: left !important;
+}
+#lg-download{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .grid-container,
+    #resume .grid-container{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    #about div{
+        background-size: cover;
+        background-position: center top;
+    }
+    #about h1 {
+        margin-top: 12.5vh;
+    }
+}
