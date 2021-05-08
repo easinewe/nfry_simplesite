@@ -29,8 +29,8 @@
     <div class="wrap">
 
         <header>
+            <h1>Nina Fry <span>Director</span></h1>
             <ul>
-                <li><a href="#home">Nina <span>Fry</span></a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>

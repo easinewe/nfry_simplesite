@@ -33,6 +33,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+html{
+    font-size: 10px;
+}
 body {
     line-height: 1;
 }
@@ -51,13 +54,15 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+#container{
+    background-color: red;
+}
 .wrap{
     max-width: 1440px;
     overflow: hidden;
     margin: 0px auto;
 }
 /* BODY */
-
 body{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -72,15 +77,17 @@ a:hover{
     text-decoration: underline;
 }
 h1{
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 600;
     margin-bottom: 1em;
 }
 h2{
-    font-size: 1.5rem;
+    font-size: 2.4rem;
+    line-height: 2em;
     margin-bottom: 2em;
 }
 h3{
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-bottom: 1em;
 }
 p{
@@ -90,73 +97,84 @@ p{
 strong{
     font-weight: 600;
 }
+.wrap{
+    width: 100vw;
+    max-width: 1440px;
+    padding: 0 2.5vw;
+    box-sizing: border-box;
+}
+.wrap section > div{
+    max-width: 1440px;
+}
+/* CONTENT */
+#work > div,
+#resume > div,
+#contact > div{
+    max-width: 1440px;
+    padding: 2.5vw;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
 
 /* HEADER */
 header{
-    width: 100vw;
+    width: 100%;
     height: 5vw;
+    font-size: 1.6rem;
+    line-height: 5vw;
+    position: relative;
+}
+header h1{
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header h1 span{
+    font-weight: 400;
 }
 header ul{
-    line-height: 5vw;
-    padding: 0px 2.5vw;
+    padding: 0;
     list-style-type: none;
     text-align: left;
 }
 header ul a{
     text-decoration: none;
-    color: white;
 }
 header ul li {
     display: inline-block;
     margin-right: 20px;
 }
-header ul li:first-of-type{
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: 600;
-    position: absolute;
-    margin-left: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 header ul li:last-of-type{
-    position: absolute;
+    float: right;
     margin-right: 0px;
-    right: 2.5vw;
 }
 
 /* HOME */
 
 .slideshow{
-    width: calc(100vw - 5vw);
+    width: 100%;
     height: calc(100vh - 7.5vw);
     position: relative;
-    margin: 0vw 2.5vw 2.5vw 2.5vw;
+    margin-bottom: 2.5vw;
     list-style-type: none;
     overflow: hidden;
-}
-.slideshow li:hover {
-    cursor: pointer;
-}
-.slideshow span{
-    width: 100%;
-    height: 100%;
-    display: block;
 }
 .slideshow a:hover h3:last-of-type{
     transform: translateX(20px);
 }
+.slideshow li a:link{
+    display: block;
+}
 .slideshow li{
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-size: contain;
-    background-position: center center;
     width: 100%;
     height: 100%;
+    background-size: contain;
+    background-position: center center;
     background-color: green;
+}
+.slideshow li a > img{
+    display: none;
 }
 .slideshow h2,
 .slideshow h3,
@@ -229,8 +247,7 @@ header ul li:last-of-type{
 /* ABOUT */
 
 #about{
-    width: calc(100vw - 5vw);
-    max-width: calc(1200px + 5vw);
+    width: 100%;
     height: calc(100vh - 5vw);
     max-height: calc(1200px + 5vw);
     position: relative;
@@ -245,8 +262,11 @@ header ul li:last-of-type{
     background-position: center center;
     background-repeat: no-repeat;
     float: right;
-    padding: 0 2.5vw;
+    padding-right: 1.25vw;
     box-sizing: border-box;
+}
+#about div:first-of-type{
+    padding-left: 1.25vw;
 }
 #about div > img{
     display: none;
@@ -276,13 +296,6 @@ header ul li:last-of-type{
     background-color: black;
     color: ghostwhite;
 }
-#work > div,
-#resume > div,
-#contact > div{
-    max-width: 1200px;
-    padding: 2.5vw;
-    margin: 0px auto;
-}
 #work h2,
 #resume h2{
     padding-top: 2.5vw;
@@ -291,9 +304,8 @@ header ul li:last-of-type{
 }
 #work li h3{
     color: ghostwhite;
-    font-size: 1.25rem;
-    line-height: 3em;
-    margin-bottom: 0.5em;
+    line-height: 1.25;
+    padding-top: 1.5rem;
 }
 #work li{
     opacity: 0.8;
@@ -303,20 +315,21 @@ header ul li:last-of-type{
     opacity: 1.0;
     cursor: zoom-in;
 }
+#work li > div > img{
+    display: none;
+}
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 2.5vw 2.5vw;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2.5vw;
     padding: 2.5vw 0px;
-    margin: 0px auto;
-    max-width: 1200px;
 }
 .grid-item {
     position: relative;
     background-color: green;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px 10px 15vw 10px;
+    padding-bottom: 66%;
     font-size: 1.25rem;
     text-align: left;
 }
@@ -341,8 +354,6 @@ header ul li:last-of-type{
 #resume .grid-container {
     grid-template-columns: repeat(3, 33%);
     padding: 1rem 0px;
-}
-#resume .grid-item{
 }
 #resume section{
     margin-top: 5em;

@@ -3,6 +3,7 @@
         <ul class="slideshow">
             <li style="background-image:url('img/theconnection_twitch.gif')">
                 <a href="https://www.twitch.tv/ratatatpark" target="_blank">
+                    <img src="img/theconnection_twitch.gif" alt="Recent Projects: The Connection">
                     <span>
                         <h3>May 7th at 7:30 EST</h3>
                         <h3>Watch on twitch.tv ></h3>
@@ -27,7 +28,9 @@
             <li class="gallery-item"
                 data-src="img/work/happy-birthday-casey-1.jpg"
                 data-sub-html="<h4>Happy Birthday Casey</h4><p>Written by Emily J. Daly</p><p>photo by Nathaniel Johnston</p>">
-                <div style="background-image: url('img/happy-birthday-casey.jpg')" class="grid-item"></div>
+                <div style="background-image: url('img/happy-birthday-casey.jpg')" class="grid-item">
+                    <img src="img/happy-birthday-casey.jpg">
+                </div>
                 <h3>Happy Birthday Casey</h3>
             </li>
             <li class="gallery-item hide-gallery"
@@ -45,7 +48,9 @@
             <li class="gallery-item"
                 data-src="img/work/pump-ballet-1.jpg"
                 data-sub-html="<h4>Pump Ballet</h4><p>written by natyna bean</p><p>photo by Nathaniel Johnston</p>">
-                <div style="background-image: url('img/pump-ballet.jpg')" class="grid-item"></div>
+                <div style="background-image: url('img/pump-ballet.jpg')" class="grid-item">
+                    <img src="img/pump-ballet.jpg">
+                </div>
                 <h3>Pump Ballet</h3>
             </li>
             <li class="gallery-item hide-gallery"
@@ -61,7 +66,9 @@
             <li class="gallery-item"
                 data-src="img/work/stonewall-operas-1.jpg"
                 data-sub-html="<h4>The Stonewall Operas</h4><p>photo by Steven Pisano</p>">
-                <div style="background-image: url('img/stonewall.jpg')" class="grid-item"></div>
+                <div style="background-image: url('img/stonewall.jpg')" class="grid-item">
+                    <img src="img/stonewall.jpg">
+                </div>
                 <h3>The Stonewall Operas</h3>
             </li>
             <li class="gallery-item hide-gallery"
@@ -77,7 +84,9 @@
             <li class="gallery-item"
                 data-src="img/work/skint-1.jpg"
                 data-sub-html="<h4>Skint</h4>">
-                    <div style="background-image: url('img/skint.jpg')" class="grid-item"></div>
+                    <div style="background-image: url('img/skint.jpg')" class="grid-item">
+                        <img src="img/skint.jpg">
+                    </div>
                     <h3>Skint</h3>
             </li>
             <li class="gallery-item hide-gallery"
@@ -89,7 +98,9 @@
             <li class="gallery-item"
                 data-src="img/work/the-connection-1.jpg"
                 data-sub-html="<h4>The Connection</h4><p>Coming Soon</p>">
-                <div style="background-image: url('img/the-connection.jpg')" class="grid-item"></div>
+                <div style="background-image: url('img/the-connection.jpg')" class="grid-item">
+                    <img src="img/the-connection.jpg">
+                </div>
                 <h3>The Connection</h3>
             </li>
 
@@ -97,7 +108,9 @@
             <li class="gallery-item"
                 data-src="https://vimeo.com/65434087"
                 data-sub-html="<h4>Nina Fry: Acting Reel</h4>">
-                <div style="background-image: url('img/nina-fry-actor.jpg')" class="grid-item"></div>
+                <div style="background-image: url('img/nina-fry-actor.jpg')" class="grid-item">
+                    <img src="img/nina-fry-actor.jpg">
+                </div>
                 <h3>Acting Reel</h3>
             </li>
             <li class="gallery-item hide-gallery"
@@ -129,7 +142,7 @@
     </section>
 </div><!--closing wrap-->
 
-<section id="resume">
+<!--<section id="resume">
     <div>
         <h2>Resume</h2>
 
@@ -197,7 +210,7 @@
             </ul>
         </section>
     </div>
-</section>
+</section>-->
 
 <div class="wrap"><!--opening wrap-->
 
