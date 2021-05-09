@@ -156,9 +156,11 @@ header ul li:last-of-type{
     margin-bottom: 2.5vw;
     list-style-type: none;
     overflow: hidden;
+    font-size: 1.6rem;
+    font-family: vcr !important;
 }
-.slideshow a:hover h3:last-of-type{
-    transform: translateX(20px);
+.slideshow:hover h5{
+    background-color: green;
 }
 .slideshow li a:link{
     display: block;
@@ -168,7 +170,6 @@ header ul li:last-of-type{
     height: 100%;
     background-size: contain;
     background-position: center center;
-    background-color: green;
 }
 .slideshow li a > img{
     display: none;
@@ -186,13 +187,8 @@ header ul li:last-of-type{
     position: absolute;
 }
 .slideshow h2,
-.slideshow h6,
-.slideshow h3{
-    font-family: vcr !important;
-}
-.slideshow h2,
 .slideshow h6{
-    font-size: 5rem;
+    font-size: 5em;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
@@ -206,7 +202,7 @@ header ul li:last-of-type{
     transform: translateX(-200%);
 }
 .slideshow h3{
-    font-size: 1.7rem;
+    font-size: 1.7em;
     bottom: 2.5vw;
     right: 5vw;
     padding: 0.5em 0.5em;
@@ -218,12 +214,12 @@ header ul li:last-of-type{
     bottom: initial;
 }
 .slideshow h4{
-    font-size: 1rem;
+    font-size: 1em;
     left: 2.5vw;
     top: 25%;
 }
 .slideshow h5{
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 600;
     background-color: red;
     padding: 0.5em 0.5em;
@@ -416,6 +412,18 @@ header ul li:last-of-type{
         position: absolute;
         left: 0px;
         right: 0px;
+        transform: none;
+    }
+    .slideshow{
+        font-size: 1rem;
+        height: calc(80vh - 7.5vw);
+    }
+    .slideshow h3:first-of-type{
+        top: 25vw;
+        left: 2.5vw;
+    }
+    .slideshow h6:first-of-type{
+        left: 2.5vw;
         transform: none;
     }
     .grid-container {

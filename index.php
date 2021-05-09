@@ -2,13 +2,13 @@
 <section id="home">
         <ul class="slideshow">
             <li style="background-image:url('img/theconnection_twitch.gif')">
-                <a href="https://www.twitch.tv/ratatatpark" target="_blank">
+                <a href="https://www.twitch.tv/videos/1015505545" target="_blank">
                     <img src="img/theconnection_twitch.gif" alt="Recent Projects: The Connection">
                     <span>
-                        <h3>May 7th at 7:30 EST</h3>
-                        <h3>Watch on twitch.tv ></h3>
+                        <h3>Performed Live 5/7/21</h3>
+                        <h3>Watch Now on twitch.tv ></h3>
                         <h2>The Connection</h2>
-                        <h5>LIVE!</h5>
+                        <h5>LIVE</h5>
                         <h6>The</h6>
                         <h6>Connection</h6>
                     </span>
@@ -97,15 +97,28 @@
             <!--The Connection-->
             <li class="gallery-item"
                 data-src="img/work/the-connection-1.jpg"
-                data-sub-html="<h4>The Connection</h4><p>Coming Soon</p>">
+                data-sub-html="<h4>The Connection</h4>">
                 <div style="background-image: url('img/the-connection.jpg')" class="grid-item">
                     <img src="img/the-connection.jpg">
                 </div>
                 <h3>The Connection</h3>
             </li>
+            <li class="gallery-item hide-gallery"
+                data-src="img/work/the-connection-2.jpg"
+                data-sub-html="<h4>The Connection</h4>">
+            </li>
+            <li class="gallery-item hide-gallery"
+                data-src="img/work/the-connection-3.jpg"
+                data-sub-html="<h4>The Connection</h4>">
+            </li>
+            <li class="gallery-item hide-gallery"
+                data-src="img/work/the-connection-4.jpg"
+                data-sub-html="<h4>The Connection</h4>">
+            </li>
+
 
             <!--Acting Reel-->
-            <li class="gallery-item"
+            <!--<li class="gallery-item"
                 data-src="https://vimeo.com/65434087"
                 data-sub-html="<h4>Nina Fry: Acting Reel</h4>">
                 <div style="background-image: url('img/nina-fry-actor.jpg')" class="grid-item">
@@ -116,7 +129,7 @@
             <li class="gallery-item hide-gallery"
                 data-src="img/work/acting-reel-1.jpg"
                 data-sub-html="<h4>Nina Fry: Acting Reel</h4>">
-            </li>
+            </li>-->
 
         </ul>
     </div>
@@ -151,14 +164,22 @@
         <section>
             <h3>Directing</h3>
             <ul class="grid-container">
-                <li><strong>The Turn of the Screw</strong> <br>(Assistant Director) <br>Directed by Kate Whoriskey <br>Gerald W Lynch Theatre</li>
+                <li><strong>The Connection</strong><br> by Jack Gelber<br>New School for Drama<br>Bank Street Theatre & Twitch.tv</li>
+                <li><strong>The Country</strong><br> by Martin Crimp<br>New School for Drama<br>Bank Street Theatre</li>
                 <li><strong>Nightlife The Stonewall Operas</strong><br>(AOP / NYU)&nbsp; <br>Shubert Theatre &amp; The Stonewall Inn</li>
-                <li><strong>Harper Regan by Simon Stephens</strong> <br>Lee Strasberg Theatre &amp; Film Institute<br>The Irma Sandy Theatre</li>
+                <li><strong>Harper Regan </strong><br>by Simon Stephens <br>Lee Strasberg Theatre &amp; Film Institute<br>The Irma Sandy Theatre</li>
                 <li><strong>Shotz</strong><br>(monthly productions) <br>AMIOS Cooperative <br>The Kraine Theatre</li>
                 <li><strong>The Secret World Inside Me / SHIT</strong> <br>Cimientos 2017 &amp; 2018 <br>IATI Theater</li>
-                <li><strong>World Builders</strong><br>(Assistant Director) <br>Flux Theatre Ensemble <br>Kelly O’Donnell (Director)</li>
                 <li><strong>My Favourite Flower</strong> <br>Love Drunk Series 11 <br>The Drama League</li>
                 <li><strong>My Favourite Flower</strong><br>(film version) <br>2n8 Productions, LLC</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Assistant Director</h3>
+            <ul class="grid-container">
+                <li><strong>The Turn of the Screw </strong><br>by Benjamin Britten <br>Directed by Kate Whoriskey <br>Gerald W Lynch Theatre</li>
+                <li><strong>World Builders </strong><br>by Johnna Adams <br>Flux Theatre Ensemble <br>Kelly O’Donnell (Director)</li>
             </ul>
         </section>
 
@@ -173,7 +194,7 @@
             </ul>
         </section>
 
-        <section>
+        <!--<section>
             <h3>Acting</h3>
             <h4>Television</h4>
             <ul class="grid-container">
@@ -191,7 +212,7 @@
             <ul class="grid-container">
                 <li><strong>Vera Drake </strong><br>Mary McWilliams<br>Mike Leigh (Director)</li>
             </ul>
-        </section>
+        </section>-->
 
         <section>
             <h3>Education</h3>
@@ -223,7 +244,7 @@
                 <h4>Nina Fry, <span>Director</span></h4>
                 Brooklyn, NY<br/>
                 <!--email-->
-                <a href="ninafry77@gmail.com">ninafry77@gmail.com</a><br/>
+                <a href="mailto:ninafry77@gmail.com">ninafry77@gmail.com</a><br/>
                 <!--phone-->
                 <!--<a href="tel:222-222-2222">222-222-2222</a>-->
             </address>
