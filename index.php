@@ -20,7 +20,7 @@
 
 
 <section id="work">
-    <div>
+    <div class="insider">
     <h2>Selected Work</h2>
         <ul id="lightgallery" class="grid-container">
 
@@ -131,32 +131,34 @@
 
 <div class="wrap"><!--opening wrap-->
     <section id="about">
-        <div style="background-image:url('img/nina-fry-director.jpg')">
-            <img src="img/nina-fry-director.jpg" alt="Nina Fry, Director" data-credit="photograph by Nathaniel Johnston">
-        </div>
         <div>
             <h2>About</h2>
-            <h1>Nina Fry<span> Director</span></h1>
+            <div class="headshot" style="background-image:url('img/nina-fry-director.jpg')">
+                <img src="img/nina-fry-director.jpg" alt="Nina Fry, Director" data-credit="photograph by Nathaniel Johnston">
+            </div>
+            <span>
+            <h3>Nina Fry<span> Director</span></h3>
             <p>Originally from London, England, Nina has lived in Brooklyn, NY for the past 10 years. She is a director of plays and operas with an emphasis on new work that explores the complexities of the human experience.</p>
+            <span>
         </div>
     </section>
 </div><!--closing wrap-->
 
-<!--<section id="resume">
-    <div>
+<section id="resume">
+    <div class="insider">
         <h2>Resume</h2>
 
         <section>
             <h3>Directing</h3>
             <ul class="grid-container">
                 <li><strong>The Turn of the Screw</strong> <br>(Assistant Director) <br>Directed by Kate Whoriskey <br>Gerald W Lynch Theatre</li>
-                <li><strong>Nightlife The Stonewall Operas</strong> (AOP / NYU)&nbsp; <br>Shubert Theatre &amp; The Stonewall Inn</li>
+                <li><strong>Nightlife The Stonewall Operas</strong><br>(AOP / NYU)&nbsp; <br>Shubert Theatre &amp; The Stonewall Inn</li>
                 <li><strong>Harper Regan by Simon Stephens</strong> <br>Lee Strasberg Theatre &amp; Film Institute<br>The Irma Sandy Theatre</li>
-                <li><strong>Shotz</strong> (monthly productions) <br>AMIOS Cooperative <br>The Kraine Theatre</li>
+                <li><strong>Shotz</strong><br>(monthly productions) <br>AMIOS Cooperative <br>The Kraine Theatre</li>
                 <li><strong>The Secret World Inside Me / SHIT</strong> <br>Cimientos 2017 &amp; 2018 <br>IATI Theater</li>
-                <li><strong>World Builders</strong> (Assistant Director) <br>Flux Theatre Ensemble <br>Kelly O’Donnell (Director)</li>
+                <li><strong>World Builders</strong><br>(Assistant Director) <br>Flux Theatre Ensemble <br>Kelly O’Donnell (Director)</li>
                 <li><strong>My Favourite Flower</strong> <br>Love Drunk Series 11 <br>The Drama League</li>
-                <li><strong>My Favourite Flower</strong> (film version) <br>2n8 Productions, LLC</li>
+                <li><strong>My Favourite Flower</strong><br>(film version) <br>2n8 Productions, LLC</li>
             </ul>
         </section>
 
@@ -175,9 +177,9 @@
             <h3>Acting</h3>
             <h4>Television</h4>
             <ul class="grid-container">
-                <li><strong>EastEnders</strong> <br>Series Regular (1997-98) BBC (Contracted)</li>
-                <li><strong>Bombshell</strong> <br>Guest Star Shed Productions, Jim Loach (Director)</li>
-                <li><strong>Grange Hill</strong> <br>Series Regular (1989-95) BBC (Contracted)</li>
+                <li><strong>EastEnders</strong> <br>Series Regular (1997-98)<br>BBC (Contracted)</li>
+                <li><strong>Bombshell</strong> <br>Guest Star Shed Productions<br>Jim Loach (Director)</li>
+                <li><strong>Grange Hill</strong> <br>Series Regular (1989-95)<br>BBC (Contracted)</li>
             </ul>
             <h4>Theatre</h4>
             <ul class="grid-container">
@@ -196,7 +198,7 @@
             <ul class="grid-container">
                 <li><strong>The New School</strong><br/>MFA in Directing (2021)</li>
                 <li><strong>Drama Centre London</strong><br/>BA Hons in Acting</li>
-                <li><strong>Barnet College, London</strong><br/>Access Course in Psychology &amp; Social Sciences</li>
+                <li><strong>Barnet College, London</strong><br/>Access Course in Psychology<br>&amp; Social Sciences</li>
                 <li><strong>Trinity TESOL, Granada</strong><br/>TEFL Certified</li>
             </ul>
         </section>
@@ -204,13 +206,13 @@
         <section>
             <h3>Additional</h3>
             <ul class="grid-container">
-                <li><strong>Full Equity</strong> (US/UK)</li>
-                <li><strong>Dual Citizenship</strong> (US/UK)</li>
+                <li><strong>Full Equity</strong><br>(US/UK)</li>
+                <li><strong>Dual Citizenship</strong><br>(US/UK)</li>
                 <li><strong>Driving &amp; Motorcycle Licenses</strong></li>
             </ul>
         </section>
     </div>
-</section>-->
+</section>
 
 <div class="wrap"><!--opening wrap-->
 
@@ -218,7 +220,7 @@
         <div>
             <h2>Contact</h2>
             <address>
-                <h4>Nina Fry, Director</h4>
+                <h4>Nina Fry, <span>Director</span></h4>
                 Brooklyn, NY<br/>
                 <!--email-->
                 <a href="ninafry77@gmail.com">ninafry77@gmail.com</a><br/>
