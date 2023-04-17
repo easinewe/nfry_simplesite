@@ -1,145 +1,51 @@
 <?php include('header.php'); ?>
 <section id="home">
-        <ul class="slideshow">
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <a href="project.php?title=the-connection">
+                    <img src="img/work/the-connection-shots_4.jpg" alt="The Connection directed by Nina Fry">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="project.php?title=stonewall">
+                    <img src="img/work/stonewall-operas-4.jpg" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="project.php?title=pump-ballet">
+                    <img src="img/work/pump-ballet-3.jpg" alt="Pump Ballet directed by Nina Fry">
+                </a>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+    </div>
+
+
+    <!--<ul class="slideshow">
             <li style="background-image:url('img/theconnection_twitch.gif')">
-                <a href="https://www.twitch.tv/videos/1015505545" target="_blank">
+                <a id="banner_link" href="https://www.twitch.tv/videos/1015505545" target="_blank">
                     <img src="img/theconnection_twitch.gif" alt="Recent Projects: The Connection">
-                    <span>
-                        <h3>Performed Live 5/7/21</h3>
-                        <h3>Watch Now on twitch.tv ></h3>
-                        <h2>The Connection</h2>
-                        <h5>LIVE</h5>
-                        <h6>The</h6>
-                        <h6>Connection</h6>
-                    </span>
                 </a>
             </li>
-        </ul>
+        </ul>-->
+
 </section>
 </div><!--closing wrap-->
 
 
-<section id="work">
-    <div class="insider">
-    <h2>Selected Work</h2>
-        <ul id="lightgallery" class="grid-container">
-
-            <!--Happy Birthday Casey-->
-            <li class="gallery-item"
-                data-src="img/work/happy-birthday-casey-1.jpg"
-                data-sub-html="<h4>Happy Birthday Casey</h4><p>Written by Emily J. Daly</p><p>photo by Nathaniel Johnston</p>">
-                <div style="background-image: url('img/happy-birthday-casey.jpg')" class="grid-item">
-                    <img src="img/happy-birthday-casey.jpg">
-                </div>
-                <h3>Happy Birthday Casey</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/happy-birthday-casey-2.jpg"
-                data-sub-html="<h4>Happy Birthday Casey</h4><p>Written by Emily J. Daly</p><p>photo by Nathaniel Johnston</p>">
-                <h3>Happy Birthday Casey</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/happy-birthday-casey-3.jpg"
-                data-sub-html="<h4>Happy Birthday Casey</h4><p>Written by Emily J. Daly</p><p>photo by Nathaniel Johnston</p>">
-                <h3>Happy Birthday Casey</h3>
-            </li>
-
-            <!--Pump Ballet-->
-            <li class="gallery-item"
-                data-src="img/work/pump-ballet-1.jpg"
-                data-sub-html="<h4>Pump Ballet</h4><p>written by natyna bean</p><p>photo by Nathaniel Johnston</p>">
-                <div style="background-image: url('img/pump-ballet.jpg')" class="grid-item">
-                    <img src="img/pump-ballet.jpg">
-                </div>
-                <h3>Pump Ballet</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/pump-ballet-2.jpg"
-                data-sub-html="<h4>Pump Ballet</h4><p>written by natyna bean</p><p>photo by Nathaniel Johnston</p>">
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/pump-ballet-3.jpg"
-                data-sub-html="<h4>Pump Ballet</h4><p>written by natyna bean</p><p>photo by Nathaniel Johnston</p>">
-            </li>
-
-            <!--Stonewall Operas-->
-            <li class="gallery-item"
-                data-src="img/work/stonewall-operas-1.jpg"
-                data-sub-html="<h4>The Stonewall Operas</h4><p>photo by Steven Pisano</p>">
-                <div style="background-image: url('img/stonewall.jpg')" class="grid-item">
-                    <img src="img/stonewall.jpg">
-                </div>
-                <h3>The Stonewall Operas</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/stonewall-operas-2.jpg"
-                data-sub-html="<h4>The Stonewall Operas</h4><p>photo by Steven Pisano</p>">
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/stonewall-operas-3.jpg"
-                data-sub-html="<h4>The Stonewall Operas</h4><p>photo by Steven Pisano</p>">
-            </li>
-
-            <!--Skint-->
-            <li class="gallery-item"
-                data-src="img/work/skint-1.jpg"
-                data-sub-html="<h4>Skint</h4>">
-                    <div style="background-image: url('img/skint.jpg')" class="grid-item">
-                        <img src="img/skint.jpg">
-                    </div>
-                    <h3>Skint</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src=" https://vimeo.com/477599785"
-                data-sub-html="<h4>Skint</h4>">
-            </li>
-
-            <!--The Connection-->
-            <li class="gallery-item"
-                data-src="img/work/the-connection-1.jpg"
-                data-sub-html="<h4>The Connection</h4>">
-                <div style="background-image: url('img/the-connection.jpg')" class="grid-item">
-                    <img src="img/the-connection.jpg">
-                </div>
-                <h3>The Connection</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/the-connection-2.jpg"
-                data-sub-html="<h4>The Connection</h4>">
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/the-connection-3.jpg"
-                data-sub-html="<h4>The Connection</h4>">
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/the-connection-4.jpg"
-                data-sub-html="<h4>The Connection</h4>">
-            </li>
-
-
-            <!--Acting Reel-->
-            <!--<li class="gallery-item"
-                data-src="https://vimeo.com/65434087"
-                data-sub-html="<h4>Nina Fry: Acting Reel</h4>">
-                <div style="background-image: url('img/nina-fry-actor.jpg')" class="grid-item">
-                    <img src="img/nina-fry-actor.jpg">
-                </div>
-                <h3>Acting Reel</h3>
-            </li>
-            <li class="gallery-item hide-gallery"
-                data-src="img/work/acting-reel-1.jpg"
-                data-sub-html="<h4>Nina Fry: Acting Reel</h4>">
-            </li>-->
-
-        </ul>
-    </div>
-</section>
-
-<script>
-    lightGallery(document.getElementById('lightgallery'), {
-        selector: '.gallery-item'
-    });
-</script>
+<?php include('selected-work.php'); ?>
+<?php include('in_development.php'); ?>
 
 
 <div class="wrap"><!--opening wrap-->
@@ -151,7 +57,14 @@
             </div>
             <span>
             <h3>Nina Fry<span> Director</span></h3>
-            <p>Originally from London, England, Nina has lived in Brooklyn, NY for the past 10 years. She is a director of plays and operas with an emphasis on new work that explores the complexities of the human experience.</p>
+            <p>Originally from London, England, Nina is a director of plays, operas and film with an emphasis on new work that explores and exposes the complexities of the human experience.</p>
+
+            <p>Recent credits include <em>The Connection</em> and <em>The Country</em> (The New School),<em>The Turn of the Screw</em> (Opera, Assisting Kate Whorsky, Gerald W Lynch Theater),
+                <em>Nightlife</em> (Opera, Shubert Theatre & The Stonewall Inn), <em>Harper Regan</em> (The Irma Sandy Theatre), <em>World Builders</em> (Flux Theatre Assembly, Assisting Kelly O’Donnell).
+            She continues to enjoy workshopping new plays at IATI Theatre and AMIOS Cooperative and was also excited to be part of both the SDC Foundation Observership and The Directors Lab in Chicago.</p>
+
+            <p>Nina is currently working on a series of short operas based on the history of women’s reproductive rights, a documentary challenging the US support system for pregnancy and childbirth and the re-imagining of a ‘straight’ one act play which tackles the opioid crisis in Philadelphia. She is also excited to be the new Program Director for the Brooklyn Kids Film Festival.</p>
+
             <span>
         </div>
     </section>
@@ -160,6 +73,7 @@
 <section id="resume">
     <div class="insider">
         <h2>Resume</h2>
+        <p><a class="white" href="documents/nina_fry_directing_resume.pdf">download as PDF</a></p>
 
         <section>
             <h3>Directing</h3>
@@ -179,7 +93,7 @@
             <h3>Assistant Director</h3>
             <ul class="grid-container">
                 <li><strong>The Turn of the Screw </strong><br>by Benjamin Britten <br>Directed by Kate Whoriskey <br>Gerald W Lynch Theatre</li>
-                <li><strong>World Builders </strong><br>by Johnna Adams <br>Flux Theatre Ensemble <br>Kelly O’Donnell (Director)</li>
+                <li><strong>World Builders </strong><br>by Johnna Adams<br>Directed by Kelly O’Donnell <br>Flux Theatre Ensemble</li>
             </ul>
         </section>
 
@@ -251,6 +165,4 @@
         </div>
     </section>
 
-
-
-<?php include('footer.php'); ?>
+    <?php include('footer.php'); ?>
